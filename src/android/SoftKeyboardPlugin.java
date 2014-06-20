@@ -8,9 +8,9 @@ import android.view.inputmethod.InputMethodManager;
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
 
-public class SoftKeyboard extends SoftKeyboardPlugin {
+public class SoftKeyboardPlugin extends CordovaPlugin {
 
-    public SoftKeyboard() {
+    public SoftKeyboardPlugin() {
     }
 
     public void showKeyBoard() {
